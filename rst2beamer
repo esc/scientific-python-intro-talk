@@ -40,6 +40,8 @@ try:
 except:
     pass
 
+import ipython_console_highlighting
+
 from docutils.core import publish_cmdline, default_description
 from docutils.writers.latex2e import Writer as Latex2eWriter
 from docutils.writers.latex2e import LaTeXTranslator, DocumentClass
