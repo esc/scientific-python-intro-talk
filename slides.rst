@@ -151,7 +151,107 @@ Downsides
 * Many packages make it hard to find the right one
 * Career change: scientists becoming programmers
 
+A Non-Trivial Algorithm
+-----------------------
 
+.. code-block:: python
+
+    def quicksort_val(array):
+        if len(array) <= 1:
+            return array
+        lower, upper, center = [], [], []
+        part = choice(array)
+        for i in array:
+            if i < part:
+                lower.append(i)
+            elif i > part:
+                upper.append(i)
+            else:
+                center.append(i)
+        return quicksort_val(lower) + \
+               center + \
+               quicksort_val(upper)
+
+Naive "Testing"
+---------------
+
+* How to test this?
+* Initial approach:
+
+  * Launch IPython
+  * Test with some random input:
+
+Naive "Testing"
+---------------
+
+  .. code-block:: python
+
+    >>> sorting.quicksort_val([3, 2, 1])
+    [1, 2, 3]
+    >>> sorting.quicksort_val([100, 1000, 10])
+    [10, 100, 1000]
+    >>> sorting.quicksort_val(['a', 'c', 'b'])
+    ['a', 'b', 'c']
+
+Unit Testing
+------------
+
+* What happens if you change something, e.g. fix a bug?
+* Wouldn't it be great if you could re-run your "tests" automatically?
+
+Unit Testing
+------------
+
+.. code-block:: python
+
+    def test_sanity():
+        nt.assert_equal(quicksort_val([3, 2, 1]),
+                        [1, 2, 3])
+        nt.assert_equal(quicksort_val([100, 1000, 10]),
+                        [10, 100, 1000])
+        nt.assert_equal(quicksort_val(['a', 'c', 'b']),
+                        ['a', 'b', 'c'])
+
+
+What to test?
+-------------
+
+.. code-block:: python
+
+  def test_extended():
+      # Test single element
+      nt.assert_equal(quicksort_val([1]),
+                      [1])
+      # Test empty list
+      nt.assert_equal(quicksort_val([]),
+                      [])
+      # Test duplicates
+      nt.assert_equal(quicksort_val([1, 2, 2, 1]),
+                      [1, 1, 2, 2])
+      # Test mixing types
+      nt.assert_equal(quicksort_val(['abc', 1, 1.0]),
+                      [1, 1.0, 'abc'])
+
+
+Running Them
+------------
+
+.. code-block:: console
+
+  $ nosetests code/sorting.py
+  ..
+  ----------------------------------------------------------------------
+  Ran 2 tests in 0.002s
+
+  OK
+  $ nosetests -v code/sorting.py 
+  sorting.test_sanity ... ok
+  sorting.test_extended ... ok
+
+  ----------------------------------------------------------------------
+  Ran 2 tests in 0.002s
+
+  OK
 
 Making slides with ``rst2beamer``
 ---------------------------------
