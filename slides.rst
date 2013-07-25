@@ -317,26 +317,89 @@ Running Them
 
   OK
 
-Making slides with ``rst2beamer``
----------------------------------
+Version Control
+===============
 
-* list item
-* list item
+Outline
+-------
 
-  * nested list item
+.. raw:: latex
 
-.. code-block:: console
+    \tableofcontents[currentsection]
 
-    $ echo "example code block" 
+Exchange pieces of code
+-----------------------
 
-Next slide
-----------
+#. You write some code
+#. You wish to exchange it with a colleague
+#. You send it by email / google docs / dropbox
+#. Both of you make modifications
 
-* Links:
-* `github <http://github.com>`_
+Version control to the rescue
 
-Images
+What does Version Control do?
+-----------------------------
+
+* Keep a record of who changed what when
+* Synchronize across machines
+* Allow branch based development and merging
+
+Example Systems
+---------------
+
+* Centralized
+
+  * CVS
+  * Subversion
+
+* Distributed
+
+  * Mercurial
+  * Bazarr
+  * Git
+
+GitHub
 ------
 
 .. image:: images/octocat.pdf
 
+Why GitHub
+----------
+
+* Social network for coders
+* Promote easy collaboration
+* Slick web interface
+
+What Next?
+==========
+
+Outline
+-------
+
+.. raw:: latex
+
+    \tableofcontents[currentsection]
+
+Materials
+---------
+
+* `Dive into Python <http://www.diveintopython.net/>`_
+* `Python for Data Analysis <http://shop.oreilly.com/product/0636920023784.do>`_
+* `Git - Verteilte Versionskontrolle für Code und Dokumente <http://gitbu.ch/>`_
+
+* `Python scientific lecture notes <http://scipy-lectures.github.io/>`_
+* `Nicolas Rougier's matplotlib tutorial <http://www.loria.fr/~rougier/teaching/matplotlib/>`_
+* `Robert Johansson's lecture notes <https://github.com/jrjohansson/scientific-python-lectures>`_
+
+Schools and Conferences
+-----------------------
+
+* `Scipy <https://conference.scipy.org/index.html>`_ / `EuroScipy <https://www.euroscipy.org/>`_
+* `Advanced School Programming in Python <https://python.g-node.org/wiki/>`_
+* `Python Academy <http://www.python-academy.com/>`_
+* `Software Carpentry <http://www.python-academy.com/>`_
+
+Questions?
+----------
+
+Questions?
