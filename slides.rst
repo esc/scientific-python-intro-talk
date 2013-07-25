@@ -184,14 +184,14 @@ Naive "Testing"
 Naive "Testing"
 ---------------
 
-  .. code-block:: python
+.. code-block:: python
 
-    >>> sorting.quicksort_val([3, 2, 1])
-    [1, 2, 3]
-    >>> sorting.quicksort_val([100, 1000, 10])
-    [10, 100, 1000]
-    >>> sorting.quicksort_val(['a', 'c', 'b'])
-    ['a', 'b', 'c']
+  >>> sorting.quicksort_val([3, 2, 1])
+  [1, 2, 3]
+  >>> sorting.quicksort_val([100, 1000, 10])
+  [10, 100, 1000]
+  >>> sorting.quicksort_val(['a', 'c', 'b'])
+  ['a', 'b', 'c']
 
 Unit Testing
 ------------
