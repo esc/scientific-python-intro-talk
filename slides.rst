@@ -205,6 +205,16 @@ Downsides
 * Many packages make it hard to find the right one
 * Career change: scientists becoming programmers
 
+Unit Testing
+===========================
+
+Outline
+-------
+
+.. raw:: latex
+
+    \tableofcontents[currentsection]
+
 A Non-Trivial Algorithm
 -----------------------
 
