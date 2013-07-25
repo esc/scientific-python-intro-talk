@@ -193,6 +193,8 @@ What do scientists need?
 
 * Rapid prototyping
 * Fast numerics
+* Good visualization
+* Domain specific libraries
 * Code that can be shared
 
 You want to do science, publish papers, and not futz about with code!
