@@ -1,5 +1,17 @@
+============
 Introduction
 ============
+
+Python Intro
+============
+
+Outline
+-------
+
+.. raw:: latex
+
+    \tableofcontents
+
 
 About Python
 ------------
@@ -11,7 +23,7 @@ About Python
 .. image:: images/python-logo.pdf
     :scale: 50%
 
-Python is Slow
+Python is slow
 --------------
 
 * Python is an interpreted language
@@ -51,6 +63,16 @@ The Equivalent in Python
     CPU times: user 4.15 s, sys: 0.18 s, total: 4.33 s
     Wall time: 4.43 s
 
+Numpy
+=====
+
+Outline
+-------
+
+.. raw:: latex
+
+    \tableofcontents[currentsection]
+
 Enter Numpy
 -----------
 
@@ -80,6 +102,16 @@ The advantages of Numpy
 * No compilation
 * No memory management
 * No segmentation faults (usually)
+
+IPython
+=======
+
+Outline
+-------
+
+.. raw:: latex
+
+    \tableofcontents[currentsection]
 
 The Interpreter
 ---------------
@@ -112,6 +144,16 @@ But IPython is so much more
 
 * And who knows what else..
 
+Scientific Python Ecosystem
+===========================
+
+Outline
+-------
+
+.. raw:: latex
+
+    \tableofcontents[currentsection]
+
 Other important Libraries
 -------------------------
 
@@ -125,6 +167,16 @@ Other important Libraries
 
 Together all of these packages make up what is known as the *scientific python
 ecosystem*
+
+Why Python
+==========
+
+Outline
+-------
+
+.. raw:: latex
+
+    \tableofcontents[currentsection]
 
 Why do people like Python
 -------------------------
