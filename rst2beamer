@@ -1385,12 +1385,12 @@ class BeamerTranslator (LaTeXTranslator):
 
     def _get_admonition_class(self, node):
         # strip the generic 'admonition' from the list of classes
-        filt_classes = [cls for cls in node['classes']
-                           if cls != 'admonition']
-        assert len(filt_classes) == 1, "I need exactly 1 classe: " + str(filt_classes)
-        myclass = filt_classes[0].lower()#I think docutils lowers anyways, but just to be sure
-        return myclass
-
+        if node is not None:
+            filt_classes = [cls for cls in node['classes']
+                            if cls != 'admonition']
+            assert len(filt_classes) == 1, "I need exactly 1 classe: " + str(filt_classes)
+            myclass = filt_classes[0].lower()#I think docutils lowers anyways, but just to be sure
+            return myclass
         
     def _get_alertblock_type(self, myclass):
         alertlist = ['attention', 'caution', 'danger', 'error', 'warning']
