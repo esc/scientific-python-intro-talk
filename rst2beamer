@@ -32,6 +32,8 @@ __version__ = "0.7.0"
 
 ### IMPORTS ###
 
+import ipython_console_highlighting
+
 import re
 import pdb
 
@@ -39,8 +41,6 @@ try:
     locale.setlocale (locale.LC_ALL, '')
 except:
     pass
-
-import ipython_console_highlighting
 
 from docutils.core import publish_cmdline, default_description
 from docutils.writers.latex2e import Writer as Latex2eWriter
