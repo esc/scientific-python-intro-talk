@@ -18,16 +18,17 @@ About Python
 
 * General purpose programming language
 * Alive since 1991
-* One of the 4 programming languages uese at google
+* One of the 4 programming languages used at Google
 
 .. image:: images/python-logo.pdf
     :scale: 50%
 
-Python is slow
---------------
+Python is Slow..
+----------------
 
 * Python is an interpreted language
 * It is comparatively slow...
+* But usually it is fast enough
 
 Example in C
 ------------
@@ -46,8 +47,8 @@ Example in C
         }
     }
 
-So how fast is it?
--------------------
+So how Fast is it?
+------------------
 
 .. code-block:: console
 
@@ -83,7 +84,7 @@ Enter Numpy
 .. image:: images/numpylogo.pdf
     :scale: 25%
 
-So how fast is it?
+So how Fast is it?
 ------------------
 
 .. code-block:: pycon
@@ -94,7 +95,7 @@ So how fast is it?
 
 * Without Numpy, scientific computing would not be possible in Python
 
-The advantages of Numpy
+The Advantages of Numpy
 -----------------------
 
 * Approaches C speed for many operations
@@ -154,7 +155,7 @@ Outline
 
     \tableofcontents[currentsection]
 
-Other important Libraries
+Other Important Libraries
 -------------------------
 
 * Matplotlib
@@ -178,7 +179,7 @@ Outline
 
     \tableofcontents[currentsection]
 
-Why do people like Python
+Why do People like Python
 -------------------------
 
 * Easy to learn
@@ -188,7 +189,7 @@ Why do people like Python
 * Large standard library
 * Literally 1000 of additional packages
 
-What do scientists need?
+What do Scientists need?
 ------------------------
 
 * Rapid prototyping
@@ -297,7 +298,7 @@ What to test?
                       [1, 1.0, 'abc'])
 
 
-Running Them
+Running them
 ------------
 
 .. code-block:: console
@@ -327,7 +328,7 @@ Outline
 
     \tableofcontents[currentsection]
 
-Exchange pieces of code
+Exchange Pieces of Code
 -----------------------
 
 #. You write some code
