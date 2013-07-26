@@ -1,10 +1,10 @@
-Talk about XYZ
-==============
+Introductory Talk about Scientific Python and Best Practices
+============================================================
 
 Description
 -----------
 
-Talk template based on rst2beamer.
+An introductory level talk about scientific python and best practices.
 
 Dependencies
 ------------
