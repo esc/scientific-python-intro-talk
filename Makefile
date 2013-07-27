@@ -1,5 +1,5 @@
 base = slides
-slidefilename = talk-about-XYZ
+slidefilename = scientific-python-intro-talk
 
 .PHONY: git-sha
 
