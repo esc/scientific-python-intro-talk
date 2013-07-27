@@ -359,6 +359,16 @@ Example Systems
   * Bazarr
   * Git
 
+Distributed Version Control
+---------------------------
+
+.. image:: images/centralised-en.pdf
+
+All Operations are Local
+---------------------------
+
+.. image:: images/distributed-microcosmos-en.pdf
+
 GitHub
 ------
 
